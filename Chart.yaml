@@ -1,0 +1,10 @@
+apiVersion: v2
+name: strimzi-cluster-operator-arpit
+description: Wrapper Chart to deploy or override Strimzi Cluster Operator
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+dependencies:
+  - name: strimzi-kafka-operator
+    version: 0.31.1
+    repository: https://strimzi.io/charts/
